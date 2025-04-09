@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int choice;
+    int alegere;
 
     printf("Meniu:\n");
     printf("1. Burger - 5$\n");
@@ -10,9 +10,9 @@ int main() {
     printf("4. Sandvis - 4$\n");
 
     printf("Introduceti alegerea dvs. (1-4): ");
-    scanf("%d", &choice);
+    scanf("%d", &alegere);
 
-    switch (choice) {
+    switch (alegere {
         case 1:
             printf("Ati selectat Burger. Pret: 5$\n");
             break;

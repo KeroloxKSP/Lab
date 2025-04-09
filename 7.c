@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int age;
+    int varsta;
+    printf("Introduceti varsta: ");
+    scanf("%d", &varsta);
 
-    printf("Introduceti varsta dvs.: ");
-    scanf("%d", &age);
-
-    if (age < 0) {
-        printf("Vârstă invalidă!\n");
-        return -1; 
+    if (varsta < 0) {
+        printf("Varsta invalida!\n");
+    } else if (varsta <= 12) {
+        printf("Pret bilet: 5$\n");
+    } else if (varsta <= 17) {
+        printf("Pret bilet: 8$\n");
+    } else if (varsta <= 59) {
+        printf("Pret bilet: 12$\n");
+    } else {
+        printf("Pret bilet: 7$\n");
     }
 
-    switch (age / 10) { 
-        case 0:
-        case 1:
-           if(age<=12)
-              {printf ("Pret :5$");break;}
-case
+    return 0;
+}

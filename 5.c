@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char weather;
+    char vreme;
 
     printf("Introduceti conditia meteo (S, R, C, W): ");
-    scanf(" %c", &weather);
+    scanf(" %c", &vreme);
 
-    switch (weather) {
+    switch (vreme) {
         case 'S':
         case 's':
             printf("Poarta ochelari de soare si hidrateaza-te!\n");
@@ -17,7 +17,7 @@ int main() {
             break;
         case 'C':
         case 'c':
-            printf("S-ar putea să plouă, fii pregătit!\n");
+            printf("S-ar putea să ploua, fii pregatit!\n");
             break;
         case 'W':
         case 'w':
