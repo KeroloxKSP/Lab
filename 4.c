@@ -14,16 +14,16 @@ int main() {
 
     switch (choice) {
         case 1:
-            printf("Ati selectat Burger. Preț: 5$\n");
+            printf("Ati selectat Burger. Pret: 5$\n");
             break;
         case 2:
-            printf("Ati selectat Pizza. Preț: 8$\n");
+            printf("Ati selectat Pizza. Pret: 8$\n");
             break;
         case 3:
-            printf("Ai selectat Paste. Preț: 6$\n");
+            printf("Ai selectat Paste. Pret: 6$\n");
             break;
         case 4:
-            printf("Ati selectat Sandvis. Preț: 4$\n");
+            printf("Ati selectat Sandvis. Pret: 4$\n");
             break;
         default:
             printf("Selectie invalida!\n");
